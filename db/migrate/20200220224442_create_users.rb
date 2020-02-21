@@ -1,5 +1,4 @@
 class CreateUsers < ActiveRecord::Migration
-  def change
     def change 
       create_table :users do |t|
         t.string :name 
@@ -7,5 +6,4 @@ class CreateUsers < ActiveRecord::Migration
         t.string :password 
       end 
     end 
-  end
 end
